@@ -1,0 +1,19 @@
+{
+  "_note": "VERIFY these on the live X page. If X changes markup, fix only this file.",
+  "article": "article[data-testid=\"tweet\"]",
+  "text": "[data-testid=\"tweetText\"]",
+  "userName": "[data-testid=\"User-Name\"]",
+  "timeLink": "a[href*=\"/status/\"] time",
+  "profileLink": "a[data-testid=\"AppTabBar_Profile_Link\"]",
+  "replyBox": "[data-testid=\"tweetTextarea_0\"]",
+  "sendInline": "[data-testid=\"tweetButtonInline\"]",
+  "sendModal": "[data-testid=\"tweetButton\"]",
+  "likeButton": "[data-testid=\"like\"]",
+  "followButton": "[data-testid=\"primaryColumn\"] [data-testid$=\"-follow\"]",
+  "unfollowButton": "[data-testid=\"primaryColumn\"] [data-testid$=\"-unfollow\"]",
+  "unfollowConfirm": "[data-testid=\"confirmationSheetConfirm\"]",
+  "adWords": ["Ad", "Promoted"],
+  "replyingToWords": ["Replying to"],
+  "loginWallSelectors": ["a[href=\"/login\"]", "[data-testid=\"loginButton\"]", "[data-testid=\"login\"]"],
+  "errorWords": ["Something went wrong", "Rate limit exceeded", "might be automated", "unable to follow"]
+}

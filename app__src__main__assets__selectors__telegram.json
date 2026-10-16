@@ -1,0 +1,5 @@
+{
+  "_note": "Telegram Web (web.telegram.org). VERIFY on the live page. If markup changes, fix only this file. 'link' = X post links inside messages, 'scroll' = the message list that scrolls (scrolling up loads older messages).",
+  "link": "a[href*=\"/status/\"][href*=\"x.com/\"], a[href*=\"/status/\"][href*=\"twitter.com/\"]",
+  "scroll": ".bubbles .scrollable, .MessageList"
+}
